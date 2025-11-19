@@ -1,0 +1,32 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Playwright Automation Implementation using typescript and CICD Github Actions",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinayakHM/PLAYWRIGHT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinayakHM/PLAYWRIGHT/issues"
+  },
+  "homepage": "https://github.com/VinayakHM/PLAYWRIGHT#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.47.0",
+    "@typescript-eslint/parser": "^8.47.0",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.39.1",
+    "prettier": "^3.6.2",
+    "winston": "^3.18.3"
+  }
+}
