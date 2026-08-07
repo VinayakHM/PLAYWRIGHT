@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Playwright Automation Implementation using typescript and CICD Github Actions",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/VinayakHM/PLAYWRIGHT.git"
